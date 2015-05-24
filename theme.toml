@@ -1,10 +1,11 @@
 name = "Startbootstrap Clean Blog"
 license = "Apache 2.0"
-licenselink = "https://github.com/humboldtux/startbootstrap-clean-blog/blob/gh-pages/LICENSE"
+licenselink = "https://github.com/humboldtux/startbootstrap-clean-blog/blob/master/LICENSE.md"
 description = "Startbootstrap Clean Blog"
 homepage = "https://github.com/humboldtux/startbootstrap-clean-blog"
 tags = ["blog", "bootstrap"]
 features = ["blog", "bootstrap"]
+min_version = 0.13
 
 [author]
   name = "Benoît Benedetti"
