@@ -1,0 +1,7 @@
+               <div class="post-preview">
+                  <p class="post-meta"><a href="{{ .Permalink }}">{{ .Title }}</a> on {{ .Site.Params.DateForm }}
+                    <br />
+                    {{ partial "categories.html" .}}
+                    {{ partial "tags.html" .}}
+                  </p>
+               </div>
