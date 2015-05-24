@@ -2,6 +2,8 @@
 
 Hugo theme based on [Start Bootstrap Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
 
+![Screenshot](https://raw.githubusercontent.com/humboldtux/startbootstrap-clean-blog/master/images/tn.png)
+
 You can find a [Demo site](http://humboldtux.github.io/sbcb-demo/), and have a look at the source on the
 [repo site](https://github.com/humboldtux/sbcb-demo) for configuration parameters.
 
