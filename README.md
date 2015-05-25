@@ -19,11 +19,12 @@ You can find a [Demo site](http://humboldtux.github.io/sbcb-demo/), and have a l
 * dynamic configuration of email for JS contact form
 * subtitles heading
 * Advanced pagination, make pagination button look like older posts button
-* pre and next links in post https://github.com/antzucaro/az.com/blob/master/layouts/\_default/single.html
+* pre and next links in post https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html
 * Suggested links at the bottom of post
 * use post title as post image name
 * mailing list subscription form
 * Google search form
+ * http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986
 * multi author support, authors list page
 * use {{ .Content }} for 404.html
 * deploy workflow
