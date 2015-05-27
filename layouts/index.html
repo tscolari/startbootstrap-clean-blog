@@ -19,10 +19,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ range first 4 .Data.Pages }}
-            {{ if eq .Type  "post" }}
+          {{ range first 4 (where .Data.Pages "Type" "post") }}
               {{ .Render "summary"}}
-            {{ end }}
           {{ end }}
           <!-- Pager -->
           <ul class="pager">
