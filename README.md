@@ -17,7 +17,6 @@ You can find a [Demo site](http://humboldtux.github.io/sbcb-demo/), and have a l
 * "Edit on github" feature http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166
 * Display archive posts per year/month
 * dynamic configuration of email for JS contact form
-* subtitles heading
 * Advanced pagination, make pagination button look like older posts button
 * pre and next links in post https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html
 * Suggested links at the bottom of post
