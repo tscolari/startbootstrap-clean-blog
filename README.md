@@ -24,17 +24,17 @@ You can find a [Demo site](http://humboldtux.github.io/sbcb-demo/), and have a l
 * mailing list subscription form
 * Google search form
  * http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986
-* multi author support, authors list page
+* multi author support, authors list page, author page
 * use {{ .Content }} for 404.html
 * deploy workflow
   * Makefile
   * http://discuss.gohugo.io/t/deployment-workflow/90
   * http://discuss.gohugo.io/t/my-deployment-process/807
   * http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539
+* updatedate post metadata for updated post
 * comment system support: disqus, Discourse, Kaiju
 * Syntax highlighting
 * Less support
 * post series : http://discuss.gohugo.io/t/creating-post-series/1115
-* page auteur
 * Add menu entry for taxonomies
 * DRY template
