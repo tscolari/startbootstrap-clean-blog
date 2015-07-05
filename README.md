@@ -4,8 +4,61 @@ Hugo theme based on [Start Bootstrap Clean Blog](http://startbootstrap.com/templ
 
 ![Screenshot](https://raw.githubusercontent.com/humboldtux/startbootstrap-clean-blog/master/images/tn.png)
 
+## Setup
+
+### As is
+
+You can use the site as is, it will work. You can for example use it with [HugoBasicExample](https://github.com/spf13/HugoBasicExample).
+
+#### full features
+
+If you want to have all the features and pages of the original theme, you will need a similar *config.toml*:
+
+``` toml
+baseurl = "http://humboldtux.github.io/sbcb-demo"
+title = "Start Bootstrap Clean Blog"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+languageCode = "en-us"
+copyright = "Code released under the Apache 2.0 license."
+
+[author]
+  name = "Benoît Benedetti"
+    
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Your site description"
+  Author = "Benoît Benedetti"
+  email = "benoit.benedetti@gmail.com"
+  Ganalytics = "XX-00000000-0"
+              
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/humboldtux"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/humboldtux"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/FACEBOOKHANDLE"
+                                      
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
+```
+                                                  
 You can find a [Demo site](http://humboldtux.github.io/sbcb-demo/), and have a look at the source on the
 [repo site](https://github.com/humboldtux/sbcb-demo) for configuration parameters.
+
+### Custom
+
+You can have a look at my [personal website](http://www.humboldtux.net), where i customize it and use it in a different way than the original theme.
 
 ## TODO
 
