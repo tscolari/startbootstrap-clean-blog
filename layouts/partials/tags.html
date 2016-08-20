@@ -1,4 +1,4 @@
-Tags {{ range $index, $tag :=  .Params.tags }}
+Tags {{ range $index, $tag :=  . }}
   {{- if eq $index 0 -}}
     <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
   {{- else -}}
