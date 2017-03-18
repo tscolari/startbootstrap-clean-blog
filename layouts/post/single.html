@@ -32,7 +32,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <div class="g-plus" data-action="share" data-annotation="none"></div>
                   {{ .Content }}
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <div class="g-plus" data-action="share" data-annotation="none"></div>
+
+                  <div id="disqus_thread"></div>
+                  <script>
+                  var disqus_config = function () {
+                  this.page.url = location.origin + location.pathname;
+                  this.page.identifier = location.pathname;
+                  };
+
+                  (function() {
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://devtscolarime.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                  })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                 </div>
             </div>
         </div>
